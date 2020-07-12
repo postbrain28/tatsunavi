@@ -1,0 +1,24 @@
+$main-color: #53B4CB;
+$font-color: #333;
+
+html {
+  font-size: 10px;
+}
+
+body {
+  color: $font-color;
+  font-family: ten-mincho, serif;
+  font-style: normal;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: $font-color;
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}

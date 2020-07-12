@@ -1,0 +1,36 @@
+@import "common.scss";
+
+.header {
+  align-items: center;
+  display: flex;
+  padding: 22px 0;
+  vertical-align: middle;
+
+  h1 {
+    margin-right: 120px;
+    text-align: center;
+    span {
+      font-size: 1.2rem;
+    }
+
+    p {
+      color: $main-color;
+      font-size: 4rem;
+    }
+
+  }
+
+  .h_nav {
+    ul {
+      display: flex;
+      font-size: 2.4rem;
+      li {
+        margin-right: 103px;
+        &:last-child {
+          margin-right: 0;
+        }
+      }
+    }
+  }
+
+}
